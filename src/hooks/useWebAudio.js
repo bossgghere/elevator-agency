@@ -1,4 +1,4 @@
-import { useRef, useCallback, useState } from 'react';
+import { useRef, useCallback, useState, useEffect } from 'react';
 
 export function useWebAudio() {
   const [soundEnabled, setSoundEnabled] = useState(true);
